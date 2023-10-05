@@ -82,3 +82,40 @@ main h1{
 
     
 }
+.container-dama{
+
+    display: grid;
+    grid-template-areas: 'header' 'header' 'header'
+                           'main'   'main' 'main'
+                          'footer' 'footer' 'footer';
+                          
+}
+
+/* REMERAS DAMA */
+.header-damas{ grid-area: header;}
+
+.main-damas{ grid-area: main;}
+
+.footer-damas{ grid-area: footer;}
+
+.footer-damas{  
+    display: flex;
+    height: 250px;
+  }
+  .footer-damas div{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 30px;
+    background-color: #15151D;
+    justify-content: right;
+    align-self: flex-end;
+    align-self: flex-end;    
+
+  }
+  .footer-damas img{
+
+    display: flexbox;
+    width: 30px;
+
+  }
