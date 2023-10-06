@@ -41,15 +41,15 @@ main h1{
     font-size: 2rem;
 }
  .main img {
-     width: 300px;
-     height: 300px;
+     width: 400px;
+     height: 400px;
     
  }
  .remeras1{
     display: flex;
     justify-content: space-around;
     padding: 15px;
-    border-radius: 300px, solid ;
+   
 }
  .remeras2{
     display: flex;
@@ -73,13 +73,14 @@ main h1{
     background-color: #15151D;
     justify-content: right;
     align-self: flex-end;
-    align-self: flex-end;    
+    align-self: flex-end;   
+    
 }
 
 .footer img {
     display: flexbox;
     width: 30px;
-
+ 
     
 }
 .container-dama{
@@ -96,6 +97,20 @@ main h1{
 
 .main-damas{ grid-area: main;}
 
+.main-damas p{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+
+  }
+  .main-damas img{
+    width: 400px;
+    height: 400px;
+  }
+  .fixed-bottom img{
+    width: 50px;
+  }
 .footer-damas{ grid-area: footer;}
 
 .footer-damas{  
@@ -119,3 +134,4 @@ main h1{
     width: 30px;
 
   }
+ 
