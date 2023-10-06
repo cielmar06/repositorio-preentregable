@@ -1,7 +1,10 @@
 *{
     margin: 0%;
     padding: 0%;
+
 }
+
+/* pagina de inicio y remeras-niños */
 body{
     background-color: #969799;
  }
@@ -16,17 +19,24 @@ color: #969799 }
 .navbar-brand{
 color: #FF64AA;}
 
-/* INTENTOS DE MODIFICAR EL ENLACE QUE NO MODIFICA  */
-.nav-link active page {color: #969799;
+
+
+.main-inicio h1{
+  font-size: 4rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  font-style: oblique;
+  text-align: center;
+  margin: 30px;
+}
+.main-inicio img{
+width: 1850px;
+height: 950px;
+margin-left: 250px;
 }
 
-.nav-link active page{ color: #969799;}
-
-.nav-link-active-page{ color: #969799;}
-
-
-
-main h1{
+/* MAIN NIÑOS Y CABALLEROS(PROBABLE) */
+.main h1{
     text-align: center;
     font-size: 3rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -59,6 +69,7 @@ main h1{
 
 
  /* FOOTER */
+ 
 .footer{
     display: flex;
     height: 250px;
@@ -83,6 +94,7 @@ main h1{
  
     
 }
+/* REMERAS DAMA */
 .container-dama{
 
     display: grid;
@@ -92,7 +104,7 @@ main h1{
                           
 }
 
-/* REMERAS DAMA */
+
 .header-damas{ grid-area: header;}
 
 .main-damas{ grid-area: main;}
