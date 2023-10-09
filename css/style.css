@@ -1,7 +1,10 @@
 *{
     margin: 0%;
     padding: 0%;
+
 }
+
+/* pagina de inicio y remeras-niños */
 body{
     background-color: #969799;
  }
@@ -16,17 +19,24 @@ color: #969799 }
 .navbar-brand{
 color: #FF64AA;}
 
-/* INTENTOS DE MODIFICAR EL ENLACE QUE NO MODIFICA  */
-.nav-link active page {color: #969799;
+
+
+.main-inicio h1{
+  font-size: 4rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  font-style: oblique;
+  text-align: center;
+  margin: 30px;
+}
+.main-inicio img{
+width: 1850px;
+height: 950px;
+margin-left: 250px;
 }
 
-.nav-link active page{ color: #969799;}
-
-.nav-link-active-page{ color: #969799;}
-
-
-
-main h1{
+/* MAIN NIÑOS Y CABALLEROS(PROBABLE) */
+.main h1{
     text-align: center;
     font-size: 3rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -41,15 +51,15 @@ main h1{
     font-size: 2rem;
 }
  .main img {
-     width: 300px;
-     height: 300px;
+     width: 400px;
+     height: 400px;
     
  }
  .remeras1{
     display: flex;
     justify-content: space-around;
     padding: 15px;
-    border-radius: 300px, solid ;
+   
 }
  .remeras2{
     display: flex;
@@ -59,6 +69,7 @@ main h1{
 
 
  /* FOOTER */
+ 
 .footer{
     display: flex;
     height: 250px;
@@ -73,12 +84,66 @@ main h1{
     background-color: #15151D;
     justify-content: right;
     align-self: flex-end;
-    align-self: flex-end;    
+    align-self: flex-end;   
+    
 }
 
 .footer img {
     display: flexbox;
     width: 30px;
-
+ 
     
 }
+/* REMERAS DAMA */
+.container-dama{
+
+    display: grid;
+    grid-template-areas: 'header' 'header' 'header'
+                           'main'   'main' 'main'
+                          'footer' 'footer' 'footer';
+                          
+}
+
+
+.header-damas{ grid-area: header;}
+
+.main-damas{ grid-area: main;}
+
+.main-damas p{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+
+  }
+  .main-damas img{
+    width: 400px;
+    height: 400px;
+  }
+  .fixed-bottom img{
+    width: 50px;
+  }
+.footer-damas{ grid-area: footer;}
+
+.footer-damas{  
+    display: flex;
+    height: 250px;
+  }
+  .footer-damas div{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 30px;
+    background-color: #15151D;
+    justify-content: right;
+    align-self: flex-end;
+    align-self: flex-end;    
+
+  }
+  .footer-damas img{
+
+    display: flexbox;
+    width: 30px;
+
+  }
+ 
