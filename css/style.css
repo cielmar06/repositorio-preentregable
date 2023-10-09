@@ -225,10 +225,11 @@ color: #FF64AA;}
     border-radius: 10px;
 }
 
+/* PG NOSOTROS, MAIN MODIFICADO USANDO PROPIEDADES BASICAS Y FLEX  */
+
 
 .main-nosotros{
     display: flex;
-   
 
 }
 .main-nosotros img{
