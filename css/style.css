@@ -1,10 +1,7 @@
 *{
     margin: 0%;
     padding: 0%;
-
 }
-
-/* pagina de inicio y remeras-niños */
 body{
     background-color: #969799;
  }
@@ -20,23 +17,9 @@ color: #969799 }
 color: #FF64AA;}
 
 
+/* MAIN H1 Y P DE NIÑOS Y CABALLEROS */
 
-.main-inicio h1{
-  font-size: 4rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 400;
-  font-style: oblique;
-  text-align: center;
-  margin: 30px;
-}
-.main-inicio img{
-width: 1850px;
-height: 950px;
-margin-left: 250px;
-}
-
-/* MAIN NIÑOS Y CABALLERO */
-.main h1{
+main h1{
     text-align: center;
     font-size: 3rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -69,7 +52,6 @@ margin-left: 250px;
 
 
  /* FOOTER */
- 
 .footer{
     display: flex;
     height: 250px;
@@ -94,7 +76,6 @@ margin-left: 250px;
  
     
 }
-/* REMERAS DAMA */
 .container-dama{
 
     display: grid;
@@ -104,7 +85,7 @@ margin-left: 250px;
                           
 }
 
-
+/* REMERAS DAMA */
 .header-damas{ grid-area: header;}
 
 .main-damas{ grid-area: main;}
@@ -154,8 +135,6 @@ margin-left: 250px;
     width: 30px;
 
   }
-<<<<<<< HEAD
-=======
  /* REMERAS CABALLERO APLICANDO POSITION PARA MOVER LAS IMAGENES */
 
  .div-contenedor1-caballero{display: flex;
@@ -208,5 +187,3 @@ margin-left: 250px;
     left: 300px;
     border-radius: 10px;
 }
- 
->>>>>>> remeras-caballero
