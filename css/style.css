@@ -9,7 +9,7 @@ body{
     background-color: #15151D;
     
 }
-/*  ENALACES MODIFICADOS DE COLOR  */
+/*  ENLACES MODIFICADOS DE COLOR  */
 .navbar-nav a {
 color: #969799 }
 
@@ -17,6 +17,32 @@ color: #969799 }
 color: #FF64AA;}
 
 
+
+/* MAIN INICIO */
+
+.main-inicio{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(6,1fr);
+}
+.main-inicio h1{
+    display: grid;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    text-align: center;
+    margin-top: 20px;
+    border-bottom: solid 2px #FF64AA;
+    grid-column: 2,5;
+    grid-row: 1;
+
+}
+.main-inicio img{
+    display: grid;
+    width: 800px;
+
+}
 /* MAIN H1 Y P DE NIÑOS Y CABALLEROS */
 
 main h1{
